@@ -27,3 +27,6 @@ I then entered the Key/Value pairs:
 - **Key:** “The Secret is”  
 - **Value:** “I need 3 coffees a day to function.”  
 ![Secret Key Value](secret-key-value.png)
+
+Next, I added an encryption key. AWS encryption keys are important for protecting sensitive data, and permissions can be assigned so only specific people can access the key.  
+![Encryption Key Setup](encryption-key.png)

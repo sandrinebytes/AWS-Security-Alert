@@ -20,3 +20,9 @@
 ---
 
 ✅ This project demonstrates how AWS native services can be integrated to build a simple but effective **security monitoring and alerting system**. It can be expanded into a foundation for **SIEM-style monitoring** in cloud environments.
+
+## Secrets Manager
+In AWS Secrets Manager > Secrets > Store a new secret, I select “Other type of secret.”  
+I then entered the Key/Value pairs:  
+- **Key:** “The Secret is”  
+- **Value:** “I need 3 coffees a day to function.”  

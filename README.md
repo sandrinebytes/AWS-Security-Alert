@@ -26,3 +26,4 @@ In AWS Secrets Manager > Secrets > Store a new secret, I select “Other type of
 I then entered the Key/Value pairs:  
 - **Key:** “The Secret is”  
 - **Value:** “I need 3 coffees a day to function.”  
+![Secret Key Value](secret-key-value.png)

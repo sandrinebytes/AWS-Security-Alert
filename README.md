@@ -57,5 +57,5 @@ CloudTrail is essential for security, compliance, and troubleshooting, as it all
 
 Created an S3 bucket to store CloudTrail logs for monitoring and analysis.  
 
-![S3 Bucket Setup 1](S3-Bucket-Setup-1.PNG)
-![S3 Bucket Setup 2](S3-Bucket-Setup-2.PNG)
+![S3 Bucket Setup 1](s3-bucket-setup-1.png)
+

@@ -110,3 +110,19 @@ Configured the action so that AWS checks every 5 minutes and sends alerts if the
 Subscribed to the SNS topic via email (confirmation required for security).  
 ![SNS Email Confirmation](sns-email-confirmation.png) <!-- Image 18 -->  
 ![SNS Subscription Confirmed](sns-subscription-confirmed.png) <!-- Image 19 -->
+
+### Enabling SNS in CloudTrail
+Enabled SNS notification delivery in CloudTrail. This ensures notifications are sent whenever a new log file is created in the S3 bucket (different from the CloudWatch alarm, which only alerts on specific conditions).  
+![CloudTrail SNS Enabled](cloudtrail-sns-enabled.png) <!-- Image 20 -->  
+
+Tested by opening the secret again in Secrets Manager and confirming I received the email notification.  
+![SNS Email Received](sns-email-received.png) <!-- Image 21 -->
+
+### Final Test
+To validate the entire system:
+1. Opened the secret (TopSecretInfoNextWork) in Secrets Manager.  
+2. Verified CloudTrail logged the access.  
+3. Confirmed CloudWatch Alarm triggered.  
+4. Received an email alert via SNS.  
+
+System works as expected.

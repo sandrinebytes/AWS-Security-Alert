@@ -85,5 +85,6 @@ CloudWatch is crucial because:
 - Logs can be aggregated and filtered across multiple AWS services.  
 
 (Event History = short-term view, CloudWatch Logs = long-term, detailed analysis.)  
-Creating a Filter Pattern  
+## Creating a Filter Pattern  
 ![CloudWatch Metric Filter](cloudwatch-metric-filter.png) <!-- Image 13 -->
+Created a metric filter to track all events where the secret was accessed (GetSecretValue).

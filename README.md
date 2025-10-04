@@ -37,4 +37,5 @@ Secret successfully created.
 
 ## Summary
 Created a secret called **“TopSecretInfo”** in AWS Secrets Manager containing the string value:
-![Secrets Summary Cloud Icons](images/secrets-summary-cloud-icons.png)
+![Secrets Summary Cloud Icons](secrets-summary-cloud-icons.png)
+

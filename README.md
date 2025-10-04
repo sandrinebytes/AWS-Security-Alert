@@ -98,3 +98,7 @@ Created the alarm under `GetSecretsValue`.
 ![Creating Metric Filter Alarm](cloudwatch-alarm-setup.png) <!-- Image 14 -->  
 ![Configuring SNS Topic](sns-topic-setup.png) <!-- Image 15 -->  
 ![Alarm Threshold Settings](alarm-threshold-settings.png) <!-- Image 16 -->
+
+### Configuring Alarm Actions
+Configured the action so that AWS checks every 5 minutes and sends alerts if the threshold is exceeded.  
+![CloudWatch Alarm Action Setup](alarm-action-setup.png) <!-- Image 17 -->

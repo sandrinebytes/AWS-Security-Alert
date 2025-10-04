@@ -30,3 +30,7 @@ I then entered the Key/Value pairs:
 
 Next, I added an encryption key. AWS encryption keys are important for protecting sensitive data, and permissions can be assigned so only specific people can access the key.  
 ![Encryption Key Setup](encryption-key.png)
+
+Another feature I like about Secrets Manager is the ability to replicate secrets across multiple regions for availability.
+Secret successfully created.
+![Secret replication successful](secret-replication.png)

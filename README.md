@@ -47,3 +47,8 @@ CloudTrail tracks events that happen in an AWS account, logging details about wh
 **Setting up trails:** When you create a trail, you tell CloudTrail which activities to log and where to store those logs.  
 
 ![CloudTrail Setup](cloudtrail-setup.png) <!-- Image 5 -->
+## CloudTrail Overview
+
+CloudTrail is essential for security, compliance, and troubleshooting, as it allows detection of suspicious activity.
+
+![CloudTrail Logo](images/cloudtrail-logo.png)

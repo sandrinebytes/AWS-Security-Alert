@@ -50,5 +50,7 @@ CloudTrail tracks events that happen in an AWS account, logging details about wh
 ## CloudTrail Overview
 
 CloudTrail is essential for security, compliance, and troubleshooting, as it allows detection of suspicious activity.
-![CloudTrail Logo](images/CloudTrail-Logo.png)
+
+![CloudTrail Logo](images/cloudtrail-logo.png)
+
 

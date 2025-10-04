@@ -1,3 +1,6 @@
+Email Notifications
+Subscribed to the SNS topic via email (confirmation required for security).
+(Image 18, 19)
 # AWS-Security-Alert
 
 ## 📌 To Do
@@ -102,3 +105,8 @@ Created the alarm under `GetSecretsValue`.
 ### Configuring Alarm Actions
 Configured the action so that AWS checks every 5 minutes and sends alerts if the threshold is exceeded.  
 ![CloudWatch Alarm Action Setup](alarm-action-setup.png) <!-- Image 17 -->
+
+### Email Notifications
+Subscribed to the SNS topic via email (confirmation required for security).  
+![SNS Email Confirmation](sns-email-confirmation.png) <!-- Image 18 -->  
+![SNS Subscription Confirmed](sns-subscription-confirmed.png) <!-- Image 19 -->

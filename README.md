@@ -34,3 +34,7 @@ Next, I added an encryption key. AWS encryption keys are important for protectin
 Another feature I like about Secrets Manager is the ability to replicate secrets across multiple regions for availability.
 Secret successfully created.
 ![Secret replication successful](secret-replication.png)
+
+## Summary
+Created a secret called **“TopSecretInfo”** in AWS Secrets Manager containing the string value:
+![Secrets Summary Cloud Icons](images/secrets-summary-cloud-icons.png)

@@ -39,3 +39,11 @@ Secret successfully created.
 Created a secret called **“TopSecretInfo”** in AWS Secrets Manager containing the string value:
 ![Secrets Summary Cloud Icons](secrets-summary-cloud-icons.png)
 
+## CloudTrail
+
+Now I’ll configure CloudTrail to detect if someone attempts to access the secret.  
+CloudTrail tracks events that happen in an AWS account, logging details about who accessed a resource, when, and how.
+
+**Setting up trails:** When you create a trail, you tell CloudTrail which activities to log and where to store those logs.  
+
+![CloudTrail Setup](cloudtrail-setup.png) <!-- Image 5 -->

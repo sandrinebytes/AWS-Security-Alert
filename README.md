@@ -88,3 +88,13 @@ CloudWatch is crucial because:
 ## Creating a Filter Pattern  
 ![CloudWatch Metric Filter](cloudwatch-metric-filter.png) <!-- Image 13 -->
 Created a metric filter to track all events where the secret was accessed (GetSecretValue).
+### CloudWatch Alarm & SNS
+Set up a CloudWatch Alarm tied to an SNS topic for email alerts when a secret is accessed.  
+
+- **CloudWatch Alarm:** Triggers when the threshold condition is met (e.g., secret accessed more than once in 5 minutes).  
+- **SNS:** Sends notifications via email when the alarm is triggered.  
+
+Created the alarm under `GetSecretsValue`.  
+![Creating Metric Filter Alarm](cloudwatch-alarm-setup.png) <!-- Image 14 -->  
+![Configuring SNS Topic](sns-topic-setup.png) <!-- Image 15 -->  
+![Alarm Threshold Settings](alarm-threshold-settings.png) <!-- Image 16 -->

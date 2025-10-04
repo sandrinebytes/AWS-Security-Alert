@@ -67,3 +67,23 @@ In CloudShell, I ran the AWS CLI command to retrieve the secret, replacing `your
 Output confirmed the secret value:  
 “I need 3 coffees a day to function.”  
 ![CloudShell Retrieve Secret](cloudshell-retrieve-secret.png) <!-- Image 10 -->
+### Secret Retrieval Methods
+Two retrieval methods:  
+1. Secrets Manager Console (Retrieve value button)  
+2. AWS CLI (`get-secret-value` command)  
+![Secret Retrieval Methods](secret-retrieval-methods.png) <!-- Image 11 -->
+
+### Analyzing CloudTrail Events
+Checking Event history in CloudTrail showed `GetSecretValue` events for both retrieval methods (console & CLI). This confirms CloudTrail successfully tracks when secrets are accessed.  
+![CloudTrail Event History](cloudtrail-event-history.png) <!-- Image 12 -->
+
+### CloudWatch Setup
+Next, I configured CloudWatch for deeper log analysis and to create metrics that track how often a secret is accessed.  
+CloudWatch is crucial because:  
+- You can create alerts based on logs.  
+- Unlike CloudTrail’s 90-day history, CloudWatch logs can be stored indefinitely.  
+- Logs can be aggregated and filtered across multiple AWS services.  
+
+(Event History = short-term view, CloudWatch Logs = long-term, detailed analysis.)  
+Creating a Filter Pattern  
+![CloudWatch Metric Filter](cloudwatch-metric-filter.png) <!-- Image 13 -->

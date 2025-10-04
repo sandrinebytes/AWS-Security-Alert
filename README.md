@@ -58,3 +58,12 @@ CloudTrail is essential for security, compliance, and troubleshooting, as it all
 Created an S3 bucket to store CloudTrail logs for monitoring and analysis.  
 ![S3 Bucket Setup 1](s3-bucket-setup-1.png)
 ![S3 Bucket Setup 2](s3-bucket-setup-2.png)
+### Creating an S3 Bucket
+Returned to Secrets Manager to view the secret.  
+![Secrets Manager View](secrets-manager-view.png) <!-- Image 9 -->
+
+### CloudShell Terminal
+In CloudShell, I ran the AWS CLI command to retrieve the secret, replacing `your-region-code` with the correct region.  
+Output confirmed the secret value:  
+“I need 3 coffees a day to function.”  
+![CloudShell Retrieve Secret](cloudshell-retrieve-secret.png) <!-- Image 10 -->
